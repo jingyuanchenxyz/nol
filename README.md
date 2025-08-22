@@ -1,4 +1,21 @@
+
+
+
+### download10k.py
+Downloads 10ks from the SEC website based off of a csv or xlsx, works well, make sure format is as follows:
+```
+
+```
+
+
+Downloads files as:
+```
+
+```
+
+
 ### nolparagraphextract.py
+Extracts candidate NOL paragraphs for LLM to parse later, main issue: units retainment
 
 CONFIG
 Controls extraction behavior with the following params:
