@@ -34,6 +34,8 @@ config = Config(
 
 extractor = NOLExtractor(config)
 result = extractor.process_file('path/to/10k.html')
+
+```
 NOLCandidate
 Structure holding extracted paragraph information:
 
